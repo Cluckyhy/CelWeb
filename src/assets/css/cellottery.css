@@ -1,0 +1,349 @@
+.cellottery {
+  position: absolute;
+  width: 749px;
+  height: 880px;
+  opacity: 1;
+  background-image: url("~@/assets/images/topimg.jpg");
+  overflow: hidden;
+}
+
+.cellottery .title01 {
+  position: absolute;
+  top: 56px;
+  right: 27px;
+  bottom: 547px;
+  left: 42px;
+  z-index: 2;
+}
+
+.cellottery .title01 img {
+  width: 680px;
+  height: 218px;
+}
+
+.cellottery .normal {
+  position: absolute;
+  top: 209px;
+  right: 85px;
+  bottom: 8px;
+  left: 77px;
+  z-index: 3;
+}
+
+.cellottery .normal img {
+  width: 587px;
+  height: 604px;
+}
+
+.cellottery .startbtn {
+  position: absolute;
+  width: 312px;
+  height: 118px;
+  top: 755px;
+  left: 215px;
+  z-index: 10;
+  cursor: pointer;
+  background-image: url("~@/assets/images/o-btn.png");
+}
+
+.cellottery .startbtn > p:first-child {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #7F1919;
+}
+
+.cellottery .startbtn > p:last-child {
+  height: 31px;
+  text-align: center;
+}
+
+.cellottery .startbtn > p:last-child img {
+  width: 31px;
+  height: 31px;
+  vertical-align: top;
+}
+
+.cellottery .startbtn > p:last-child span {
+  font-size: 27px;
+  margin-left: 10px;
+  color: #FFFB82;
+}
+
+@keyframes ball1 {
+  0% {
+    top: 520px;
+  }
+  50% {
+    top: 450px;
+  }
+  100% {
+    top: 520px;
+  }
+}
+
+.cellottery .ball1{
+  position: absolute;
+  top: 520px;
+  left: 150px;
+  animation-name: ball1;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ball2 {
+  0% {
+    top: 420px;
+  }
+  50% {
+    top: 360px;
+  }
+  100% {
+    top: 420px;
+  }
+}
+
+.cellottery .ball2{
+  position: absolute;
+  top: 420px;
+  left: 450px;
+  animation-name: ball2;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ball3 {
+  0% {
+    top: 450px;
+  }
+  50% {
+    top: 490px;
+  }
+  100% {
+    top: 450px;
+  }
+}
+
+.cellottery .ball3{
+  position: absolute;
+  top: 450px;
+  left: 300px;
+  animation-name: ball3;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ball4 {
+  0% {
+    top: 300px;
+  }
+  50% {
+    top: 340px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+
+.cellottery .ball4{
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  animation-name: ball4;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ball5 {
+  0% {
+    top: 380px;
+  }
+  50% {
+    top: 330px;
+  }
+  100% {
+    top: 380px;
+  }
+}
+
+.cellottery .ball5{
+  position: absolute;
+  top: 380px;
+  left: 180px;
+  animation-name: ball5;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ball6 {
+  0% {
+    top: 500px;
+  }
+  50% {
+    top: 450px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+
+
+.cellottery .ball6{
+  position: absolute;
+  top: 500px;
+  left: 350px;
+  animation-name: ball6;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ball7 {
+  0% {
+    top: 300px;
+  }
+  50% {
+    top: 350px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+.cellottery .ball7{
+  position: absolute;
+  top: 300px;
+  left: 380px;
+  animation-name: ball7;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+.cellottery .ball7>img{
+  width: 163px;
+  height: 164px;
+}
+
+@keyframes ball8 {
+  0% {
+    top: 380px;
+  }
+  50% {
+    top: 320px;
+  }
+  100% {
+    top: 380px;
+  }
+}
+
+.cellottery .ball8{
+  position: absolute;
+  top: 380px;
+  left: 250px;
+  animation-name: ball8;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+.cellottery .ball8>img{
+  width: 163px;
+  height: 164px;
+}
+
+@keyframes ball9 {
+  0% {
+    top: 550px;
+  }
+  50% {
+    top: 600px;
+  }
+  100% {
+    top: 550px;
+  }
+}
+
+.cellottery .ball9{
+  position: absolute;
+  top: 550px;
+  left: 280px;
+  animation-name: ball9;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+.cellottery .ball9>img{
+  width: 163px;
+  height: 164px;
+}
+
+@keyframes ball10 {
+  0% {
+    top: 465px;
+  }
+  50% {
+    top: 405px;
+  }
+  100% {
+    top: 465px;
+  }
+}
+
+.cellottery .ball10{
+  position: absolute;
+  top: 465px;
+  left: 220px;
+  animation-name: ball10;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+.cellottery .ball10>img{
+  width: 163px;
+  height: 164px;
+}
+
+@keyframes ball11 {
+  0% {
+    top: 520px;
+  }
+  50% {
+    top: 480px;
+  }
+  100% {
+    top: 520px;
+  }
+}
+
+.cellottery .ball11{
+  position: absolute;
+  top: 520px;
+  left: 420px;
+  animation-name: ball11;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+.cellottery .ball11>img{
+  width: 163px;
+  height: 164px;
+}
+
+@keyframes ball12 {
+  0% {
+    top: 400px;
+  }
+  50% {
+    top: 450px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+
+.cellottery .ball12{
+  position: absolute;
+  top: 400px;
+  left: 350px;
+  animation-name: ball12;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+.cellottery .ball12>img{
+  width: 163px;
+  height: 164px;
+}

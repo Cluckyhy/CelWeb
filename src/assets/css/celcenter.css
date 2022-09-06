@@ -1,0 +1,243 @@
+.celcenter {
+  position: absolute;
+  width: 749px;
+  top: 709px;
+  bottom: 741px;
+}
+
+.celcenter .maininfo{
+  position: relative;
+  width: 749px;
+  height: 900px;
+  top: 0;
+  background: url("~@/assets/images/part1.png") no-repeat;
+  z-index: 2;
+}
+
+.celcenter .star {
+  position: absolute;
+  width: 83px;
+  height: 147px;
+  right: 666px;
+  bottom: 726px;
+}
+
+.celcenter .btntip {
+  position: absolute;
+  width: 679px;
+  height: 35px;
+  top: 169px;
+  right: 34px;
+  bottom: 649px;
+  left: 36px;
+  text-align: center;
+  background-image: url("~@/assets/images/tipbg.png");
+}
+
+.celcenter .btntip > span {
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+.celcenter .detail {
+  position: absolute;
+  width: 668px;
+  height: 86px;
+  top: 231px;
+  right: 46px;
+  bottom: 536px;
+  left: 35px;
+  background-image: url("~@/assets/images/detialbg.png");
+}
+
+.celcenter .hbtn {
+  position: absolute;
+  width: 165px;
+  height: 72px;
+  top: 3px;
+  left: 48px;
+  text-align: center;
+  line-height: 72px;
+  background-image: url("~@/assets/images/h-btn.png");
+  border-radius: 20px;
+}
+
+.celcenter .hbtn > span {
+  font-size: 25px;
+  color: #8b2d16;
+  font-weight: bold;
+}
+
+.celcenter .numshow {
+  position: absolute;
+  width: 236px;
+  height: 74px;
+  top: 5px;
+  left: 232px;
+  background-image: url("~@/assets/images/numbg.png");
+  border-radius: 25px;
+}
+
+.celcenter .numshow > p {
+  text-align: center;
+}
+
+.celcenter .numshow > p:first-child {
+  font-size: 24px;
+  color: #C6AAF7;
+}
+
+.celcenter .numshow > p:last-child {
+  font-size: 37px;
+  color: #FDB25A;
+}
+
+.celcenter .exit {
+  position: absolute;
+  top: -21px;
+  right: 51px;
+}
+
+.celcenter .daylogin {
+  position: absolute;
+  width: 710px;
+  height: 162px;
+  top: 358px;
+  left: 20px;
+  background-image: url("~@/assets/images/daybg.png");
+}
+
+.daylogin .dayleft > p:first-child {
+  margin: 41px 0 0 59px;
+}
+
+.daylogin .dayleft > p:first-child span:first-child {
+  width: 710px;
+  height: 40px;
+  font-size: 32px;
+  color: #372559;
+}
+
+.daylogin .dayleft > p:first-child span:last-child {
+  display: inline-block;
+  width: 72px;
+  height: 32px;
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-left: 10px;
+  background-color: #F2933E;
+}
+
+.daylogin .dayleft > p:last-child {
+  /*width: 100px;*/
+  height: 30px;
+  margin: 10px 0 0 59px;
+}
+
+.daylogin .dayleft > p:last-child > span {
+  display: inline-block;
+  width: 286px;
+  font-size: 24px;
+  color: #6A49A5;
+}
+
+.daylogin .dayleft > p:last-child > img {
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-top: -15px;
+}
+
+.daylogin .dayright {
+  position: absolute;
+  width: 215px;
+  height: 72px;
+  top: 47px;
+  right: 51px;
+  text-align: center;
+  line-height: 72px;
+  cursor: pointer;
+}
+
+.daylogin .dayright > span {
+  font-size: 36px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.daylogin .dayright .received{
+  font-size: 36px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.celcenter .part2 {
+  position: absolute;
+  width: 710px;
+  height: 410px;
+  top: 584px;
+  right: 20px;
+  background-image: url("~@/assets/images/part2.png");
+}
+
+.celcenter .part2 > ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 75px 0 0 60px;
+}
+
+.celcenter .part2 > ul > li {
+  position: relative;
+  list-style: none;
+  width: 133px;
+  height: 131px;
+  background-image: url("~@/assets/images/s1.png");
+  margin: 20px 0 0 19px;
+}
+
+.celcenter .part2 > ul > li > p:last-child {
+  width: 133px;
+  height: 29px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222A5A;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+.celcenter .part2 > ul > li:last-child {
+  width: 249px;
+  height: 131px;
+  background-image: url("~@/assets/images/s3.png");
+}
+
+.part2 > ul > li:last-child p:first-child {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+.part2 > ul > li:last-child img{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 5px;
+  top: -25px;
+}
+
+.part2 > ul > li:last-child p:last-child {
+  position: absolute;
+  width: 249px;
+  background-color: #F1B15C;
+  bottom: 0;
+}
+
+.celcenter .part2 > ul > li p:first-child {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+

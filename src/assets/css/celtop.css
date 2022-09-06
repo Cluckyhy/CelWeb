@@ -1,0 +1,581 @@
+.celtop {
+  position: absolute;
+  width: 749px;
+  height: 880px;
+  opacity: 1;
+  background-image: url("~@/assets/images/topimg.jpg");
+  overflow: hidden;
+}
+
+.celtop .title01 {
+  position: absolute;
+  top: 56px;
+  right: 27px;
+  bottom: 547px;
+  left: 42px;
+  z-index: 2;
+}
+
+.celtop .title01 img {
+  width: 680px;
+  height: 218px;
+}
+
+.celtop .normal {
+  position: absolute;
+  top: 209px;
+  right: 85px;
+  bottom: 8px;
+  left: 77px;
+  z-index: 3;
+}
+
+.celtop .normal img {
+  width: 587px;
+  height: 604px;
+}
+
+.celtop .star_left {
+  position: absolute;
+  top: 4px;
+  right: 653px;
+  bottom: 661px;
+  left: 0;
+}
+
+.celtop .star_left img {
+  width: 96px;
+  height: 156px;
+}
+
+.celtop .star_right {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 655px;
+  left: 631px;
+}
+
+.celtop .star_right img {
+  width: 119px;
+  height: 167px;
+}
+
+@keyframes bounce1 {
+  0% {
+    top: 589px;
+  }
+  50% {
+    top: 574px;
+  }
+  100% {
+    top: 589px;
+  }
+}
+
+.celtop .ball1 {
+  position: absolute;
+  top: 449px;
+  right: 589px;
+  bottom: 242px;
+  left: 30px;
+  z-index: 5;
+  animation-name: bounce1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball1 img:first-child {
+  width: 130px;
+  height: 130px;
+}
+
+.celtop .ball1 img:last-child {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 15px;
+  left: 15px;
+}
+
+@keyframes bounce2 {
+  0% {
+    top: 428px;
+  }
+  50% {
+    top: 413px;
+  }
+  100% {
+    top: 428px;
+  }
+}
+
+.celtop .ball2 {
+  position: absolute;
+  top: 428px;
+  right: 458px;
+  bottom: 263px;
+  left: 161px;
+  z-index: 5;
+  animation-name: bounce2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball2 img:first-child {
+  width: 130px;
+  height: 130px;
+}
+
+.celtop .ball2 img:last-child {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 15px;
+  left: 15px;
+}
+
+@keyframes bounce3 {
+  0% {
+    top: 184px;
+  }
+  50% {
+    top: 169px;
+  }
+  100% {
+    top: 184px;
+  }
+}
+
+.celtop .ball3 {
+  position: absolute;
+  top: 184px;
+  right: 383px;
+  bottom: 507px;
+  left: 236px;
+  z-index: 5;
+  animation-name: bounce3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball3 img:first-child {
+  width: 130px;
+  height: 130px;
+}
+
+.celtop .ball3 img:last-child {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 15px;
+  left: 15px;
+}
+
+@keyframes bounce4 {
+  0% {
+    top: 242px;
+  }
+  50% {
+    top: 267px;
+  }
+  100% {
+    top: 242px;
+  }
+}
+
+.celtop .ball4 {
+  position: absolute;
+  top: 242px;
+  right: 60px;
+  bottom: 449px;
+  left: 559px;
+  z-index: 5;
+  animation-name: bounce4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball4 img:first-child {
+  width: 130px;
+  height: 130px;
+}
+
+.celtop .ball4 img:last-child {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 15px;
+  left: 15px;
+}
+
+@keyframes bounce5 {
+  0% {
+    top: 459px;
+  }
+  50% {
+    top: 444px;
+  }
+  100% {
+    top: 459px;
+  }
+}
+
+.celtop .ball5 {
+  position: absolute;
+  top: 459px;
+  right: 3px;
+  bottom: 232px;
+  left: 616px;
+  z-index: 5;
+  animation-name: bounce5;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball5 img:first-child {
+  width: 130px;
+  height: 130px;
+}
+
+.celtop .ball5 img:last-child {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 15px;
+  left: 15px;
+}
+
+@keyframes bounce6 {
+  0% {
+    top: 563px;
+  }
+  50% {
+    top: 548px;
+  }
+  100% {
+    top: 563px;
+  }
+}
+
+.celtop .ball6 {
+  position: absolute;
+  top: 563px;
+  right: 120px;
+  bottom: 128px;
+  left: 499px;
+  z-index: 5;
+  animation-name: bounce6;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball6 img:first-child {
+  width: 130px;
+  height: 130px;
+}
+
+.celtop .ball6 img:last-child {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 15px;
+  left: 15px;
+}
+
+@keyframes bounce7 {
+  0% {
+    top: 207px;
+  }
+  50% {
+    top: 192px;
+  }
+  100% {
+    top: 207px;
+  }
+}
+
+.celtop .ball7 {
+  position: absolute;
+  top: 207px;
+  right: 206px;
+  bottom: 458px;
+  left: 388px;
+  z-index: 5;
+  animation-name: bounce7;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball7 img:first-child {
+  width: 155px;
+  height: 156px;
+}
+
+.celtop .ball7 img:last-child {
+  position: absolute;
+  width: 68px;
+  height: 90px;
+  top: 26px;
+  right: 43px;
+  bottom: 40px;
+  left: 44px;
+}
+
+@keyframes bounce8 {
+  0% {
+    top: 551px;
+  }
+  50% {
+    top: 560px;
+  }
+  100% {
+    top: 551px;
+  }
+}
+
+.celtop .ball8 {
+  position: absolute;
+  top: 551px;
+  right: 436px;
+  bottom: 114px;
+  left: 158px;
+  z-index: 5;
+  animation-name: bounce8;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball8 img:first-child {
+  width: 155px;
+  height: 156px;
+}
+
+.celtop .ball8 img:last-child {
+  position: absolute;
+  width: 68px;
+  height: 90px;
+  top: 26px;
+  right: 43px;
+  bottom: 40px;
+  left: 44px;
+}
+
+@keyframes bounce9 {
+  0% {
+    top: 406px;
+  }
+  50% {
+    top: 421px;
+  }
+  100% {
+    top: 406px;
+  }
+}
+
+.celtop .ball9 {
+  position: absolute;
+  top: 406px;
+  right: 132px;
+  bottom: 259px;
+  left: 462px;
+  z-index: 5;
+  animation-name: bounce9;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball9 img:first-child {
+  width: 155px;
+  height: 156px;
+}
+
+.celtop .ball9 img:last-child {
+  position: absolute;
+  width: 68px;
+  height: 90px;
+  top: 26px;
+  right: 43px;
+  bottom: 40px;
+  left: 44px;
+}
+
+@keyframes bounce10 {
+  0% {
+    top: 279px;
+  }
+  50% {
+    top: 294px;
+  }
+  100% {
+    top: 279px;
+  }
+}
+
+.celtop .ball10 {
+  position: absolute;
+  top: 279px;
+  right: 471px;
+  bottom: 372px;
+  left: 109px;
+  z-index: 5;
+  animation-name: bounce10;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball10 img:first-child {
+  width: 169px;
+  height: 170px;
+}
+
+.celtop .ball10 img:last-child {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 30px;
+  left: 30px;
+}
+
+@keyframes bounce11 {
+  0% {
+    top: 551px;
+  }
+  50% {
+    top: 566px;
+  }
+  100% {
+    top: 551px;
+  }
+}
+
+.celtop .ball11 {
+  position: absolute;
+  top: 551px;
+  right: 242px;
+  bottom: 100px;
+  left: 338px;
+  z-index: 5;
+  animation-name: bounce11;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball11 img:first-child {
+  width: 169px;
+  height: 170px;
+}
+
+.celtop .ball11 img:last-child {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 30px;
+  left: 30px;
+}
+
+@keyframes bounce12 {
+  0% {
+    top: 351px;
+  }
+  50% {
+    top: 341px;
+  }
+  100% {
+    top: 351px;
+  }
+}
+
+.celtop .ball12 {
+  position: absolute;
+  top: 351px;
+  right: 263px;
+  bottom: 248px;
+  left: 265px;
+  z-index: 5;
+  animation-name: bounce12;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.celtop .ball12 img:first-child {
+  width: 221px;
+  height: 222px;
+}
+
+.celtop .ball12 img:last-child {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 30px;
+  left: 30px;
+}
+
+.celtop .btn {
+  position: absolute;
+  width: 687px;
+  height: 158px;
+  top: 737px;
+  right: 32px;
+  bottom: 689px;
+  left: 30px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.celtop .btn img:first-child {
+  position: absolute;
+  width: 96px;
+  height: 119px;
+  top: 0;
+  right: 534px;
+  bottom: 17px;
+  left: 57px;
+}
+
+.celtop .btn img:last-child {
+  position: absolute;
+  width: 96px;
+  height: 119px;
+  top: 0;
+  right: 53px;
+  bottom: 17px;
+  left: 538px;
+}
+
+
+.celtop .startbtn {
+  position: absolute;
+  width: 312px;
+  height: 118px;
+  top: 755px;
+  left: 215px;
+  z-index: 10;
+  cursor: pointer;
+  background-image: url("~@/assets/images/o-btn.png");
+}
+
+.celtop .startbtn > p:first-child {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #7F1919;
+}
+
+.celtop .startbtn > p:last-child {
+  height: 31px;
+  text-align: center;
+}
+
+.celtop .startbtn > p:last-child img {
+  width: 31px;
+  height: 31px;
+  vertical-align: top;
+}
+
+.celtop .startbtn > p:last-child span {
+  font-size: 27px;
+  margin-left: 10px;
+  color: #FFFB82;
+}
+
